@@ -1,7 +1,7 @@
 import { useLoaderData, useParams } from "react-router-dom";
 
 export default function Category() {
-  const { id } = useParams();
+  // const { id } = useParams();
   const categoryNews = useLoaderData();
   return (
     <div>
